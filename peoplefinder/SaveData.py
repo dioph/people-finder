@@ -19,4 +19,3 @@ def save_data(savedir, phone, filename, status):
         data.add_row([phone, status, filename])
 
     data.write(savedir + 'data.csv', overwrite=True)
-
